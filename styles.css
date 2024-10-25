@@ -1,0 +1,52 @@
+.expression {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.operand1-display,
+.operand2-display,
+.operator-display {
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.operator-display {
+    width: 100px;
+}
+
+.operand1-input,
+.operator-input,
+.operand2-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    padding: 30px;
+    gap: 8px;
+}
+
+.operator-input {
+    width: 100px;
+}
+
+
+button {
+    padding: 0;
+}
+
+.digit {
+    width: 75px;
+    aspect-ratio: 1;
+}
+
+.operator {
+    width: 75px;
+    aspect-ratio: 1;
+}
