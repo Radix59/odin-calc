@@ -6,6 +6,7 @@
 }
 
 .output {
+    padding: 50px;
     gap: 75px;
 }
 
@@ -28,7 +29,8 @@
 
 .operand1-input,
 .operator-input,
-.operand2-input {
+.operand2-input,
+.solution {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
