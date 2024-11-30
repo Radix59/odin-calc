@@ -42,16 +42,16 @@ function operate(operand1, operand2, operator)
     switch (operator)
     {
         case "+":
-            return add(operand1, operand2);
+            return +add(operand1, operand2).toFixed(2);
 
         case "-":
-            return subtract(operand1, operand2);
+            return +subtract(operand1, operand2).toFixed(2);
 
         case "*":
-            return multiply(operand1, operand2);
+            return +multiply(operand1, operand2).toFixed(2);
 
         case "/":
-            return divide(operand1, operand2);
+            return +divide(operand1, operand2).toFixed(2);
     }
 
 }

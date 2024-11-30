@@ -12,7 +12,8 @@
 
 .operand1-display,
 .operand2-display,
-.operator-display {
+.operator-display,
+.solution {
     width: 300px;
     text-align: center;
     padding: 30px;
@@ -29,8 +30,7 @@
 
 .operand1-input,
 .operator-input,
-.operand2-input,
-.solution {
+.operand2-input {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
